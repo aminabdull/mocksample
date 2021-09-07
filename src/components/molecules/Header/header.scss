@@ -1,0 +1,34 @@
+.header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.img-logo {
+    width: 100px;
+    padding-top: 30px;
+}
+
+.navigate-header {
+    width: auto;
+    padding-right: 30px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}

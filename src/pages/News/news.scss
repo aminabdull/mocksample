@@ -1,0 +1,14 @@
+.news-wrapper {
+    padding-top: 150px;
+    .content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pagination {
+        width: 400px;
+        display: flex;
+        margin: auto;
+    }
+}

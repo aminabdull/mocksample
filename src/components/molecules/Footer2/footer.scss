@@ -1,0 +1,10 @@
+.footer2 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);    
+    @media screen and (max-width: 640px) {
+        bottom: -300px;     
+        padding-bottom: 20px;  
+    }
+}

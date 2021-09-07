@@ -1,0 +1,21 @@
+.input-wrapper { 
+    margin-bottom: 15px;
+    padding: 0 10px;
+    .label {
+        font-size: 18px;
+        line-height: 25px;
+        color: #282c34;
+        margin: 0 0 8px;
+    }
+
+    .input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }    
+    
+}

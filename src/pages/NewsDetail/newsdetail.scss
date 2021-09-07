@@ -1,0 +1,29 @@
+.news-detail-wrapper {
+    margin-top: 150px;
+    .cover {
+        width: 100% !important;
+        height: 500px;
+        object-fit: cover;
+    }
+    .nw-title {
+        margin: 0;
+        margin-top: 20px;
+        font-size: 35px;
+        font-weight: 700px;
+        color: #282c34;
+    }
+    .nw-author {
+        margin-top: 4px;
+        font-size: 20px;
+        font-weight: 300px;
+        color: #282c34;
+        opacity: 0.5;
+        margin-bottom: 20px;
+    }
+    .nw-content {
+        margin-top: 4px;
+        font-size: 20px;
+        font-weight: 300px;
+        color: #282c34;
+    }
+}
